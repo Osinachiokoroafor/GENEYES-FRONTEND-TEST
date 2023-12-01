@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "poppins"; 
+}
+.main{
+    width: 100%;
+    background: white;
+    /* height: 109vh; */
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.logo{
+font-family: "poppins";
+color: rgb(61, 59, 59);
+margin:22px;
+float: left;
+margin-right: 40px;
+margin-left: 100px;
+
+}
+.menu{
+    height:70px;
+    float: left;
+    width: 400px;
+
+}
+ ul{
+    float : left;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+} 
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 32px;
+    font-size: 14px; 
+
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.sidenav{
+    float: left;
+    margin-left: 200px;
+    /* width: 300px; */
+}
+.btn{
+    background-color: #ff7200;
+    border-radius: 10px;
+    margin-left: 20px;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.btn:hover{
+
+    background-color:black;
+}
+.content{
+    display: flex;
+    margin: 20px;
+    
+}
+.desc{
+    margin:140px 50px 80px 130px ;
+
+}
+.title{
+    font-size: 16px;
+    color: aqua;
+    line-height: 26px;
+}
+.para{
+  /* font-weight: 400; */
+  width: 300px; 
+  letter-spacing: 2px;
+  line-height: 30px;
+  font-size: 22px;
+
+}
+.buynow{
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 120px;
+    margin-top: 20px;
+    background-color: #E87A14;
+}
+.buynow a{
+    font-size:12px ;
+    text-decoration: none;
+    color: rgb(198, 201, 203);
+} 
+ .heroimage{
+    padding-left: 250px;
+ }
